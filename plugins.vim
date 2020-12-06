@@ -3,12 +3,19 @@ call plug#begin('~/.vim/plugged')
 " vim-rainbow
 Plug 'frazrepo/vim-rainbow'
 
+"ayu
+Plug 'ayu-theme/ayu-vim' 
+
 " syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'flowtype/vim-flow'
+
+" airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " status bar
 Plug 'maximbaz/lightline-ale'

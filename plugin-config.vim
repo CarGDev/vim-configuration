@@ -28,7 +28,7 @@ let g:lightline = {
 
 "  nerdtree
 let NERDTreeShowHidden=1
-let NERDTreeQuitOnOpen=0
+let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
@@ -41,6 +41,13 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/config/.vim/UltiSnips']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+
+" airlines
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = '>'
+let g:airline#extensions#tabline#left_alt_sep = '>'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_theme='ayu_dark'
 
 " kite
 let g:kite_supported_languages = ['javascript', 'python']

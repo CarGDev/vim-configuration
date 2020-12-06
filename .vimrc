@@ -21,8 +21,12 @@ so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+set termguicolors     " enable true colors support
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+
+" colorscheme gruvbox
+" let g:gruvbox_contrast_dark = "hard"
 let g:deoplete#enable_at_startup = 1
 let g:jsx_ext_required = 0
 highlight Normal ctermbg=NONE
