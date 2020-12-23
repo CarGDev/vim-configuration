@@ -1,20 +1,20 @@
-set number
-set mouse=a
-set autoindent
-set smartindent
-set tabstop=2
-set shiftwidth=2
+set number "Muestra el numero de la izquierda
+set mouse=a "  con esta opción cuando copiemos desde la terminal deslizando el ratón por el texto del fichero no se copiarán los números de línea
+set autoindent "aplica identacion automatica en vim
+set smartindent "aplica identacion de acuerdo al lenguaje
+set tabstop=2 "indica cuántos espacios tiene una tabulación
+set shiftwidth=2 "indica el nº de espacios para una indentación
 " set expandtab
-set numberwidth=1
-set clipboard=unnamed
-syntax enable
-set showcmd
-set ruler
-set cursorline
-set encoding=utf-8
-set showmatch
-set sw=2
-set relativenumber
+set numberwidth=1 "columnas para la line de numeros
+set clipboard=unnamed "copia al portapapeles
+syntax enable "te remarca la sintaxis
+set showcmd "te muestra el historial
+set ruler "te muestra en que linea estas
+set cursorline "Resalta la linea en la pantalla
+set encoding=utf-8 "Acepta los caracteres especiales como la ñ
+set showmatch "Resalta los corchetes
+set sw=2 
+set relativenumber " numero relativos dependiendo donde te encuentras
 scriptencoding utf-8
 set encoding=utf-8
 so ~/.vim/plugins.vim
