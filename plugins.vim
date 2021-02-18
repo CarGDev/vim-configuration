@@ -1,5 +1,19 @@
 call plug#begin('~/.vim/plugged')
 
+" Angular
+Plug 'iamcco/coc-angular'
+
+" Typescript
+Plug 'leafgarland/typescript-vim' " TypeScript syntax
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+
+" GraphQL
+Plug 'jparise/vim-graphql'
+
+" omnisharp for c#
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'dense-analysis/ale'
+
 " vim-rainbow
 Plug 'frazrepo/vim-rainbow'
 

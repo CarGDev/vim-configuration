@@ -26,6 +26,10 @@ let g:lightline = {
       \ }
       \}
 
+" typescript compilers
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+
 "  nerdtree
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
