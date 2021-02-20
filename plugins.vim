@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Angular
 Plug 'iamcco/coc-angular'
+Plug 'burnettk/vim-angular'
 
 " Typescript
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
